@@ -9,10 +9,10 @@ import store from './store'
 ReactDOM.render(
     <Provider store={store}>
         <React.StrictMode>
-            <App />
+            <App/>
         </React.StrictMode>
     </Provider>,
-  document.getElementById('root')
+    document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
